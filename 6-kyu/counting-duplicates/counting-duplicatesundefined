@@ -1,0 +1,13 @@
+def duplicate_count(text):
+    total_sum = 0
+    text_lower = text.lower()
+    for i in set(text_lower):
+        if  text_lower.count(i) > 1:
+             total_sum += 1
+    return total_sum
+        
+        
+​
+        
+    
+     
